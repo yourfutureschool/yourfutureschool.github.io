@@ -13,7 +13,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-if (!/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-    // Redirect to the desktop version
-    window.location.href = "/presentation.html";
-}
